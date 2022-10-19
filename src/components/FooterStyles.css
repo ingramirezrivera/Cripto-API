@@ -44,9 +44,5 @@
         display: none;
     }
 
-    /* @media screen and (max-width:478px) {
-        .footer .container {
-            grid-template-columns: 1fr;
-        }
-    } */
+    
 }
