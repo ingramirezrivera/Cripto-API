@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./FeaturedStyles.css";
-import { FiArrowUpRight, FiArrowDown, FiArrowDownRight } from "react-icons/fi";
+import { FiArrowUpRight, FiArrowDownRight } from "react-icons/fi";
 import axios from "axios";
-import { CLOSING } from "ws";
 
 const Featured = () => {
   const [data, setData] = useState(null);
