@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Cripto-API/static/css/main.3ce2ed40.css",
+    "main.js": "/Cripto-API/static/js/main.19e65d84.js",
+    "static/media/trade.png": "/Cripto-API/static/media/trade.a2c09083fbde76e9cac2.png",
+    "static/media/hero-img.png": "/Cripto-API/static/media/hero-img.66b9eb77caa3ac6d4fe8.png",
+    "index.html": "/Cripto-API/index.html",
+    "main.3ce2ed40.css.map": "/Cripto-API/static/css/main.3ce2ed40.css.map",
+    "main.19e65d84.js.map": "/Cripto-API/static/js/main.19e65d84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ce2ed40.css",
+    "static/js/main.19e65d84.js"
+  ]
+}
