@@ -16,7 +16,7 @@
 }
 
 .contact .right {
-    margin: auto;
+    margin: auto 1rem;
 }
 
 .contact .right .title {
@@ -42,4 +42,15 @@
 
 .contact form button {
     margin-top: 1rem;
+}
+
+@media screen and (max-width: 940px) {
+    .contact .container {
+        grid-template-columns: 1fr;
+    }
+.contact .right {
+    margin: 1rem;
+    grid-row: 1;
+}
+    
 }
