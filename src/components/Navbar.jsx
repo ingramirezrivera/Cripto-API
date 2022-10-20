@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./NavbarStyles.css";
 import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -10,28 +11,34 @@ const Navbar = () => {
   return (
     <div className="header">
       <div className="container">
-        <h1>
-          De<span className="primary">Fi</span>
-        </h1>
+        <Link to="/">
+          <h1>
+            De<span className="primary">Fi</span>
+          </h1>
+        </Link>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/">Features</a>
+            <Link to="/featured">Features</Link>
           </li>
           <li>
-            <a href="/">Earn</a>
+            <Link to="/signup">Earn</Link>
           </li>
           <li>
-            <a href="/">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <div className="btn-group">
           <button className="btn">Connect Wallet</button>
         </div>
         <div className="hamburguer" onClick={handleClick}>
-          {click ? <FaTimes size={30} style={{ color: "#333" }} /> : <FaBars size={30} style={{ color: "#333" }} /> }
+          {click ? (
+            <FaTimes size={30} style={{ color: "#333" }} />
+          ) : (
+            <FaBars size={30} style={{ color: "#333" }} />
+          )}
         </div>
       </div>
     </div>

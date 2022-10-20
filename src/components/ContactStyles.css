@@ -1,0 +1,45 @@
+.contact {
+    width: 100%;
+    margin: 3rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+
+.contact .left {
+    margin: 0 auto;
+}
+
+.contact .right {
+    margin: auto;
+}
+
+.contact .right .title {
+    margin-bottom: 2rem;
+}
+
+.contact .left img {
+    width: 300px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+}
+.contact form label {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.contact form input {
+    margin-bottom: 1rem;
+}
+
+.contact form button {
+    margin-top: 1rem;
+}

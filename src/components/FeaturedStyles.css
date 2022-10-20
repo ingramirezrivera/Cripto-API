@@ -8,8 +8,8 @@
 .featured {
     width: 100%;
     padding: 8rem 0;
-    background-color: var(--background);
-    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%);
+    /* background-color: var(--background);
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 90%); */
 }
 
 .featured .container {
