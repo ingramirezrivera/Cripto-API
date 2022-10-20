@@ -13,9 +13,6 @@ function App() {
         <Route path="/featured" element={<Featured />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/contact" element={<Contact />} />
-        
-
-
       </Routes>
     </>
   );
